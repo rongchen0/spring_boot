@@ -23,6 +23,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
+	// TODO
 //	@GetMapping("/hello")
 //	public String hello() {
 //		System.out.println(testProperties);
