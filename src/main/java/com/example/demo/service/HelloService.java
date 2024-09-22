@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class HelloService implements IHelloService {
     @Override
-    public String run() {
+    public String hello() {
         return "hello";
     }
 }

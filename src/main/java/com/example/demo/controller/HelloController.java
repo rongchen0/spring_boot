@@ -15,6 +15,6 @@ public class HelloController {
 
     @GetMapping()
     public String hello() {
-        return helloService.run();
+        return helloService.hello();
     }
 }
